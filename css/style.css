@@ -40,7 +40,7 @@ a {
 }
 
 .main-nav a {
-  color: #2e1b30;
+  color: #0a0a0c;
   font-size: 1.3em;
 }
 
@@ -51,12 +51,14 @@ a {
 }
 
 .para {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 100px;
   border-color: #e8c5b8;
   border-radius: 20px;
   padding: 10px;
+  color: #2e1b30;
+  font-size: 1.3em;
 }
 p {
   padding: 10px;
