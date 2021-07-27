@@ -118,7 +118,7 @@ a {
   padding: 3px;
   max-width: 25%;
   object-fit: cover;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 800px) {
