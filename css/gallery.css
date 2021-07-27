@@ -106,29 +106,19 @@ a {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.header {
-  text-align: center;
-}
-
 .column {
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
-  overflow: auto;
-  max-width: 25%;
-  padding: 4px;
+  justify-content: center;
+  flex: 25%;
+  margin: 96px;
 }
 
 .column img {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+  padding: 3px;
+  max-width: 25%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 @media screen and (max-width: 800px) {
